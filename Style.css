@@ -14,7 +14,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
 }
 
 
@@ -25,7 +25,7 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
     border-bottom: 10px solid rgb(37, 37, 37);
 }
 
@@ -38,29 +38,26 @@ header a img {
 
 
 
-main {
-    height: 150vh;
-}
+main {height: 150vh;}
 
 
 
-#video {
-    padding-bottom: 40%;
-}
+#video {padding-bottom: 40%;}
 
 iframe {
     float: left;
     margin: 18px;
     margin-top: 0%;
     border-radius: 10px;
+    transform: translateY(-50px)
 }
 
 #title {
     float: right;
     width: 45%;
-    margin-bottom: 8vh;
+    margin-bottom: 6vh;
     margin-right: 5vw;
-    font-size: 22   px;
+    font-size: 22px;
 }
 
 .info {
@@ -163,12 +160,14 @@ label[for="termos"] {
 }
 
 button {
+    font-weight: bolder;
     transition: 0.4s;
     cursor: pointer;
     width: 20%;
     border-radius: 14px;
     border: none;
     margin-top: 5vh;
+    margin-right: 1vw;
     padding: 8px;
 }
 button:hover {
@@ -181,10 +180,6 @@ button:hover {
     -webkit-box-shadow: 0 3px 10px 0 whitesmoke;
 }
 
-button[type="submit"] {
-    margin-right: 1vw;
-}
-
 
 
 
@@ -195,10 +190,7 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: small;
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color: black;
     margin-top: 27%;
 }
-
-
-
-
