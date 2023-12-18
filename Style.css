@@ -82,7 +82,7 @@ iframe {
 
 
 #form {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.671)), url(../HTML_IF/img/Móvel.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.671)), url(img/Móvel.jpg);
     background-size: 1345px 600px;
     background-repeat: no-repeat;
     height: 580px;
