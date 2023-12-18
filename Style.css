@@ -26,6 +26,7 @@ header {
     justify-content: center;
     display: flex;
     margin-bottom: 30vh;
+    border-bottom: 10px solid rgb(37, 37, 37);
 }
 
 header a img {
@@ -70,27 +71,41 @@ iframe {
     padding-bottom: 20vh;
     border-bottom: 0.5px solid lightgray;
     border-radius: 20px;
+    font-size: small;
+    font-weight: 700;
 }
 
 #title, .info {
     color: white;
-    text-shadow: 1px 1px 12px black;
+    text-shadow: 1px 1px 4px black;    
     text-align: center;
 }
 
 
 
 
+#form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.671)), url(../HTML_IF/img/Móvel.jpg);
+    background-size: 1345px 600px;
+    background-repeat: no-repeat;
+    height: 580px;
+    padding-top: 20vh;
+}
+
 #form .info {
     margin-bottom: -15vh;
-    margin-left: 2vw;
+    margin-left: 4vw;
     margin-top: 5vh;
     float: left;
     border: none;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    font-size: small;
+    font-weight: 700;
 }
 
 form {
-    transform: translateY(-28vh);
+    transform: translateY(-30vh);
     width: 32%;
     float: right;
     margin-right: 8vw;
@@ -99,12 +114,27 @@ form {
 fieldset {
     height: 350px;
     border-radius: 8px;
-    background-color: grey;
+    backdrop-filter: blur(10px);
     border: 2px solid;
+}
+
+#accounts {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#accounts a img {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 35px;
+    width: 55px;
 }
 
 label {
     text-shadow: 1px 1px 15px whitesmoke;
+    color: white;
+    text-shadow: 1px 1px 4px black;
 }
 
 input {
@@ -159,12 +189,16 @@ button[type="submit"] {
 
 
 footer { 
+    text-align: center;
     font-weight: bolder;
     position: relative;
     bottom: 0;
     width: 100%;
-    text-align: center;
     font-size: small;
     background-color: whitesmoke;
-    margin-top: 13%;
+    margin-top: 27%;
 }
+
+
+
+
