@@ -1,0 +1,196 @@
+/* iPhone 14 PRO Max */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+    background-image: linear-gradient(black,black,rgb(73, 73, 73),grey,grey);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
+header {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10vh;
+    border-bottom: 10px solid rgb(37, 37, 37);
+}
+
+header a img {
+    margin-top: 5vh;
+    width: 85vw;
+    height: 200px;
+}
+
+
+
+
+main {height: 200vh;}
+
+
+
+#video {
+    padding-bottom: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    margin: 18px;
+    margin-top: 0%;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+#title {
+    width: 90%;
+    margin-bottom: 8vh;
+    font-size: 22px;
+    margin-left: 5vw;
+}
+
+.info {
+    float: right;
+    width: 90%;
+    word-spacing: 10px;
+    margin-right: 5vw;
+    margin-bottom: 6vh;
+    padding-bottom: 8vh;
+    border-bottom: 0.5px solid lightgray;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+#title, .info {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px black;    
+    
+}
+
+
+
+
+#form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.671)), url(../HTML_IF/img/Móvel.jpg);
+    background-size: 430px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    padding-top: 5vh;
+}
+
+#form .info {
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    font-size: medium;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+form {width: 30%;}
+
+fieldset {
+    width: 400px;
+    height: 330px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 2px solid;
+    margin-left: 4vw;
+}
+
+#accounts {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#accounts a img {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 35px;
+    width: 55px;
+}
+
+label {
+    text-shadow: 1px 1px 15px whitesmoke;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+input {
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+}
+input:hover {
+    padding: 10px;
+    outline: 1px solid;
+}
+
+label, input {
+    margin: 25px;
+    font-weight: bold;
+}
+
+label[for="termos"] {
+    font-size: 12px;
+}
+#termos {
+    margin-top: 4vh;
+    margin-left: 6px;
+}
+
+button {
+    font-weight: bolder;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    margin-top: 4vh;
+    margin-left: 35vw;
+    padding: 18px;
+}
+button:active {
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px 4px whitesmoke;
+    border: 1px solid grey;
+    box-shadow: 0;
+    -moz-box-shadow: 0 3px 10px 0 whitesmoke;
+    -webkit-box-shadow: 0 3px 10px 0 whitesmoke;
+}
+
+
+
+
+footer { 
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+    color: whitesmoke;
+    background-color: black;
+    margin-top: 5%;
+}
