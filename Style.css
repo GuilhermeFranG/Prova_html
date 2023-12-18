@@ -4,3 +4,167 @@
     box-sizing: border-box;
 }
 
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+    background-image: linear-gradient(black,black,rgb(73, 73, 73),grey,grey);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+header {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30vh;
+}
+
+header a img {
+    margin-top: 5vh;
+    width: 60vw;
+    height: 150px;
+}
+
+
+
+
+main {
+    height: 150vh;
+}
+
+
+
+#video {
+    padding-bottom: 40%;
+}
+
+iframe {
+    float: left;
+    margin: 18px;
+    margin-top: 0%;
+    border-radius: 10px;
+}
+
+#title {
+    float: right;
+    width: 45%;
+    margin-bottom: 8vh;
+    margin-right: 5vw;
+    font-size: 22   px;
+}
+
+.info {
+    float: right;
+    width: 45%;
+    word-spacing: 12px;
+    margin-right: 5vw;
+    padding-bottom: 20vh;
+    border-bottom: 0.5px solid lightgray;
+    border-radius: 20px;
+}
+
+#title, .info {
+    color: white;
+    text-shadow: 1px 1px 12px black;
+    text-align: center;
+}
+
+
+
+
+#form .info {
+    margin-bottom: -15vh;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    float: left;
+    border: none;
+}
+
+form {
+    transform: translateY(-28vh);
+    width: 32%;
+    float: right;
+    margin-right: 8vw;
+}
+
+fieldset {
+    height: 350px;
+    border-radius: 8px;
+    background-color: grey;
+    border: 2px solid;
+}
+
+label {
+    text-shadow: 1px 1px 15px whitesmoke;
+}
+
+input {
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+}
+input:hover {
+    padding: 9px;
+    outline: 1px solid;
+}
+
+label, input {
+    margin: 28px;
+    font-weight: bold;
+}
+
+label[for="termos"] {
+    font-size: 12px;
+}
+#termos {
+    margin-top: 8vh;
+    margin-left: 6px;
+}
+
+button {
+    transition: 0.4s;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 14px;
+    border: none;
+    margin-top: 5vh;
+    padding: 8px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px 4px whitesmoke;
+    border: 1px solid grey;
+    box-shadow: 0;
+    -moz-box-shadow: 0 3px 10px 0 whitesmoke;
+    -webkit-box-shadow: 0 3px 10px 0 whitesmoke;
+}
+
+button[type="submit"] {
+    margin-right: 1vw;
+}
+
+
+
+
+footer { 
+    font-weight: bolder;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    background-color: whitesmoke;
+    margin-top: 13%;
+}
